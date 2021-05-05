@@ -1,0 +1,23 @@
+{
+  "name": "test-phase1",
+  "version": "1.0.0",
+  "description": "js technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pereira4ngel/test-phase1.git"
+  },
+  "author": "Angel Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereira4ngel/test-phase1/issues"
+  },
+  "homepage": "https://github.com/pereira4ngel/test-phase1#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.3"
+  }
+}
