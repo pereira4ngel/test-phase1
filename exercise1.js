@@ -1,6 +1,9 @@
-/**
- * set background image in data atribute
+/** 
+ * @description Set responsive background image at personalized HTML data attribute 
+ * @function setBackgroundImage
  * @param {string} url 
+ * @example background-image: url(urlparameter)
+ * 
  */
 const setBackgroundImage = ((url) => {
 

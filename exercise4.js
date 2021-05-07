@@ -1,19 +1,7 @@
 /**
- * set subcategories name in data attributes name
+ * set strop propagation prevent in button that call get request api data atribute
  * 
  */
-
-const setSubcategoriesName = () => {
-    let productsTitles = $("article > .category-text-margin").attr("data-testid", "mainCategory")
-    let subcategoryTitles = $("article > .category-text-margin").attr("data-testid", "subCategory")
-    productsTitles.forEach(productsTitle, element => {
-       element.text();
-    });
-}
-
-
-
-
-
-
-
+$("a.overlay-video-trigger").click((event) => {
+    event.stopPropagation();
+})
